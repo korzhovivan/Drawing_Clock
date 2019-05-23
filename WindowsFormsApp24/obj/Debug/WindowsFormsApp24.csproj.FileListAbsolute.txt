@@ -7,3 +7,13 @@ c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp24\WindowsForm
 c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp24\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.csproj.GenerateResource.Cache
 c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp24\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
 c:\users\mak\documents\visual studio 2017\Projects\WindowsFormsApp24\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.csprojAssemblyReference.cache
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Form1.resources
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.csproj.GenerateResource.cache
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.csproj.CoreCompileInputs.cache
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\Korzhov Ivan\Desktop\Drawing_Clock\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
