@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using System.IO;
 
 namespace WindowsFormsApp24
 {
@@ -23,7 +24,7 @@ namespace WindowsFormsApp24
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            Invalidate(new Rectangle(10, 10, 300, 300));
+            Invalidate(new Rectangle(10, 10, 600, 600));
         }
         
 
@@ -76,6 +77,8 @@ namespace WindowsFormsApp24
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
+           
+            
             Graphics g = this.CreateGraphics();
 
             Pen penForClock = new Pen(Color.DimGray, 10);
@@ -85,19 +88,22 @@ namespace WindowsFormsApp24
 
             penForHour.EndCap = LineCap.ArrowAnchor;
             penForMinute.EndCap = LineCap.ArrowAnchor;
+            penForSecond.EndCap = LineCap.ArrowAnchor;
 
-            g.DrawEllipse(penForClock, 10, 10, 300, 300);
+            g.DrawEllipse(penForClock, 10+98, 10 +98, 300, 300);
 
-            Point newPointMinutes = RotatePoint(new Point(160, 22), new Point(160, 160), minutes*6);
-            Point newPointHours = RotatePoint(new Point(160, 22), new Point(160, 160), hours * 30);
-            Point newPointSeconds = RotatePoint(new Point(160, 22), new Point(160, 160), seconds * 6);
+            Point newPointMinutes = RotatePoint(new Point(160 +98, 22 +98), new Point(160 +98, 160 +98), minutes*6);
+            Point newPointHours = RotatePoint(new Point(160 +98, 22 +98), new Point(160 +98, 160 +98), hours * 30);
+            Point newPointSeconds = RotatePoint(new Point(160 +98, 22 +98), new Point(160 +98, 160 +98), seconds * 6);
 
-            g.DrawLine(penForMinute, new Point(160, 160), newPointMinutes);
-            g.DrawLine(penForHour, new Point(160, 160), newPointHours);
-            g.DrawLine(penForSecond, new Point(160, 160), newPointSeconds);
+            g.DrawLine(penForMinute, new Point(160 +98, 160 +98), newPointMinutes);
+            g.DrawLine(penForHour, new Point(160 +98, 160 +98), newPointHours);
+            g.DrawLine(penForSecond, new Point(160 +98, 160 +98), newPointSeconds);
 
 
-
+           
+            Image newImage = Image.FromFile(@"C:\Users\Korzhov Ivan\Desktop\Work_With_GDI-\WindowsFormsApp24\img.png");
+            g.DrawImage(newImage, 0 , 0 , 520, 520);
         }
     }
 }
