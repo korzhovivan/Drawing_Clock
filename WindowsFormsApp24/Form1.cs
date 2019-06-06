@@ -100,10 +100,6 @@ namespace WindowsFormsApp24
             g.DrawLine(penForHour, new Point(160 +98, 160 +98), newPointHours);
             g.DrawLine(penForSecond, new Point(160 +98, 160 +98), newPointSeconds);
 
-
-           
-            Image newImage = Image.FromFile(@"C:\Users\Korzhov Ivan\Desktop\Work_With_GDI-\WindowsFormsApp24\img.png");
-            g.DrawImage(newImage, 0 , 0 , 520, 520);
         }
     }
 }
